@@ -1,4 +1,4 @@
 *.html linguist-detectable=false
 *.dart linguist-detectable=true
-*.objective-c linguist-detectable=false
+*.Objective-C linguist-detectable=false
 *.java linguist-detectable=false
