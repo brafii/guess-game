@@ -1,4 +1,5 @@
 *.dart linguist-detectable=true
+*.flutter linguist-detectable=true
 *.html linguist-detectable=false
-*.Objective-C linguist-detectable=false
+*.objective-c linguist-detectable=false
 *.java linguist-detectable=false
