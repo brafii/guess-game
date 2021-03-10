@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:guess_app/utils/customcard.dart';
 
-import 'utils/customcard.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -24,7 +24,7 @@ class Home extends StatelessWidget {
                 Expanded(
                   child: ReuseCard(
                     onpress: (){
-                      print('Number Pressed');
+                      Navigator.pushNamed(context, '/number');
                     },
                     image: 'images/number.png',
                     label: 'Number',
@@ -48,7 +48,7 @@ class Home extends StatelessWidget {
                 Expanded(
                   child: ReuseCard(
                     onpress: (){
-                      print('Dice Pressed Pressed');
+                      Navigator.pushNamed(context, '/dice');
                     },
                     image: 'images/dice.png',
                     label: 'Rice Roll',

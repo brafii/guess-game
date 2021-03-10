@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:guess_app/ui/dice_page.dart';
 import 'package:guess_app/ui/home.dart';
+import 'package:guess_app/ui/number_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +15,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => Home(),
-        // '/second': (context) => SecondScreen(),
+        '/dice': (context) => Dice(),
+        '/number': (context) => Number(),
       },
     );
   }
